@@ -10,10 +10,10 @@ import PodcastPlayer from "@/components/PodcastPlayer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Podcastr",
+  title: "Podsnap",
   description: "Poidcast BY AI",
   icons : {
-    icon : '/icons/logo.svg'
+    icon : '/icons/logo.png'
   }
 };
 
@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="mx-auto flex w-full max-w-5xl flex-col max-sm:px-4">
             <div className="flex h-16 items-center justify-between md:hidden">
               <Image 
-                src="/icons/logo.svg"
+                src="/icons/logo.png"
                 width={30}
                 height={30}
                 alt="menu icon"
